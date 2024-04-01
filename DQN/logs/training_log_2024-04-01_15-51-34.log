@@ -1,0 +1,6 @@
+2024-04-01 15:51:34,169 - Training start
+2024-04-01 15:52:15,767 - Episode: 1, Total Reward: 0.0, Epsilon: 0.9950, Average Loss: 0.0000
+2024-04-01 15:52:51,087 - Episode: 2, Total Reward: 0.0, Epsilon: 0.9900, Average Loss: 0.0032
+2024-04-01 15:53:19,764 - Episode: 3, Total Reward: 0.0, Epsilon: 0.9851, Average Loss: 0.0005
+2024-04-01 15:54:03,901 - Episode: 4, Total Reward: 0.0, Epsilon: 0.9801, Average Loss: 0.0081
+2024-04-01 15:54:34,976 - Episode: 5, Total Reward: 1.0, Epsilon: 0.9752, Average Loss: 0.0425

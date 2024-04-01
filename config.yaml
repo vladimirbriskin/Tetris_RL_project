@@ -1,0 +1,11 @@
+training:
+  episodes: 1000
+  batch_size: 32
+  model_save_interval: 100
+  model_name: "DQN"
+  model_path_folder: "models/"
+  log_file_folder: "logs/"
+
+
+environment:
+  game_mode: "TetrisA-v0"
