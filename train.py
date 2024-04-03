@@ -63,7 +63,7 @@ if __name__ == "__main__":
         losses = []  # List to track losses for each step
         
         while not done:
-            env.render()
+            # env.render()
             action = agent.act(state)  # `state` is already a FloatTensor on the correct device
             next_state, reward, done, _ = env.step(action)
             next_state = preprocess_state(next_state)

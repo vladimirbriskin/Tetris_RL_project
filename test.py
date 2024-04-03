@@ -50,6 +50,6 @@ if __name__ == "__main__":
     with open('config.yaml', 'r') as f:
         config = yaml.safe_load(f)
     action_size = 6  #SIMPLE_MOVEMENT's size is 6
-    model_path = 'DQN\models\DQN_episode_5.pth'
+    model_path = 'DQN\models\DQN_episode_10000.pth'
     model = load_agent(model_path, action_size)
     test_agent(model, episodes=10)
