@@ -6,7 +6,8 @@ To get started with this project, follow these steps:
 First, you need to install `gym-tetris` using pip. Open a terminal or command prompt and run the following command:
 
 ```bash
-pip install gym-tetris
+pip install gym-tetris pyyaml
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
 ### Step 2: Configure the Application
@@ -33,7 +34,7 @@ This will initiate the testing process, using the trained model to play Tetris. 
 ---
 
 # 问题一览
-        
+
 | 问题 | 状态 | 解决方案 | 当前进度 |
 | ------- | ------- | ------- | ------- |
 | 确保DQN_agent的reply返回loss | 已解决 | 调整batchsize，观察log输出 | 已解决 |
